@@ -1,0 +1,93 @@
+:root {
+  --primary-color: #6c63ff;
+  --secondary-color: #f5f2fe;
+  --primary-font: Georgia, "Times New Roman", Times, serif;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.smile {
+  display: block;
+  margin: 0 auto;
+}
+.greeting {
+  text-align: center;
+}
+.greeting h1 {
+  font-size: 45px;
+  margin-top: 0px;
+}
+.name {
+  color: rgb(94, 223, 20);
+  font-size: 60px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.greeting span {
+  font-size: 30px;
+  margin-top: 20px;
+  font-family: var(--primary-font);
+}
+/* button {
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+}
+button:hover {
+  cursor: pointer;
+  background-color: white;
+  color: black;
+  border: 1px solid cornflowerblue;
+} */
+.app-launch {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+}
+.app-launch a {
+  margin: 20px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+.app {
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+}
+
+.contact-btn {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+}
+.contact-btn a {
+  margin: 20px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+.contact-link {
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+}
+
+.about-link {
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+}
+.explanation {
+  margin-top: 50px;
+  font-size: 24px;
+  font-family: var(--primary-font);
+}
+
+#box {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+#rows {
+  margin-top: 80px;
+}
